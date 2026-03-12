@@ -17,7 +17,21 @@ export default defineConfig({
 				},
 				{
 					label: '🧙 Personnages',
-					autogenerate: { directory: 'personnages' },
+					items: [
+						{ label: "Vue d'ensemble", slug: 'personnages' },
+						{
+							label: '⚔️ Joueurs (PJ)',
+							items: [
+								{ label: 'Upick', slug: 'personnages/upick' },
+							],
+						},
+						{
+							label: '🎭 PNJ',
+							items: [
+								{ label: 'Tous les PNJ', slug: 'personnages/pnj-importants' },
+							],
+						},
+					],
 				},
 				{
 					label: '📜 Sessions',

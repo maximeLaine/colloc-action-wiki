@@ -1,44 +1,36 @@
 ---
-title: "Session 01 — [Titre de la session]"
-description: Compte-rendu de la première session de la campagne.
+title: "Session 1 — L'attaque dans la forêt"
+description: Première session de la campagne L'Ombre du Duc.
 ---
 
-# Session 01 — [Titre]
+# Session 1 — L'attaque dans la forêt
 
-**Date :** _date de la session_
-**Durée :** _durée_
-**Présents :** _liste des joueurs présents_
+**Lieu :** Forêt brumeuse — Redelton
+**PNJ rencontrés :** Gareth, Lysa (aubergiste)
 
 ---
 
 ## Résumé
 
-_Résumé général de ce qui s'est passé._
+Après Waterdeep, les PJ voyagent vers l'est sur la piste de la mère d'Upick. Une halte à **Redelton** — rumeurs de silhouettes nocturnes — puis la découverte d'une calèche détruite sur la route.
 
 ## Événements clés
 
-1. _Événement 1_
-2. _Événement 2_
-3. _Événement 3_
+1. **Halte à Redelton** — Lysa l'aubergiste évoque des silhouettes nocturnes dans les environs
+2. **Calèche détruite** — armes marquées Dornlac trouvées sur place, empreintes menant vers Valombre
+3. **Gareth** — seul survivant de l'escorte, en mailles abîmées, supplie les PJ de sauver la **princesse Élia**
+4. **Combat** — 2 Hybrides Sanglier-Humain repoussés
 
-## Moments mémorables
+## Cliffhanger
 
-> _"Citation marquante d'un joueur ou PNJ"_
-> — _Auteur_
+> Un cor retentit dans la forêt — une patrouille de Valombre approche.
 
-_Anecdotes, moments épiques ou comiques._
+## Indices découverts
 
-## Conséquences & Suites
-
-- _Conséquence 1 pour la suite de la campagne_
-- _Quête ou piste ouverte_
-
-## XP & Récompenses
-
-| PJ | XP gagné | Butin |
-|----|----------|-------|
-| _Nom_ | _XP_ | _Objet_ |
+- Les armes portent la marque de **Dornlac** → accusation contre le Comte Roderic
+- Les empreintes mènent vers **Valombre** → contradiction suspecte
+- Médaillon princier récupéré sur Gareth
 
 ---
 
-[← Sessions](/sessions/) | [Session 02 →](/sessions/session-02/)
+[Session 2 →](/sessions/session-02/)

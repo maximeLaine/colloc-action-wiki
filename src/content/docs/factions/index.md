@@ -1,35 +1,52 @@
 ---
 title: Factions
-description: Guildes, organisations et factions du monde de la campagne Colloc-Action.
+description: Factions, guildes et organisations de la campagne L'Ombre du Duc.
 ---
 
 # Factions
 
-Les organisations qui façonnent le monde de Colloc-Action.
+## Maison de Valombre 🌳
+**Type :** Comté noble
+**Allégeance :** Alliée (mandataire)
+**Chef :** Comte Aldren de Valombre (haut-elfe)
+**Couleurs :** Vert & Argent — Blason : chêne d'argent
 
-## Template de faction
-
----
-
-### [Nom de la faction]
-
-**Type :** _Guilde / Ordre / Empire / Culte / ..._
-**Allégeance :** _Alliée / Ennemie / Neutre_
-**Quartier général :** _Lieu_
-**Chef :** _Nom du chef_
-
-#### Description
-_But, idéologie et valeurs de la faction._
-
-#### Membres notables
-- _Membre 1 (rôle)_
-
-#### Relation avec les PJ
-_Comment la faction perçoit les personnages joueurs._
-
-#### Ressources & Influence
-_Puissance militaire, réseau, richesse._
+Demande aux PJ de retrouver la Princesse Élia et de prouver l'innocence de Valombre. Le Comte cache une rançon reçue.
 
 ---
 
-_Ajoute les fiches de factions ici._
+## Maison de Dornlac 🔨
+**Type :** Comté noble
+**Allégeance :** Neutre / Suspectée
+**Chef :** Comte Roderic de Dornlac (nain)
+**Couleurs :** Ocre & Acier — Blason : marteau d'acier
+
+Accusé à tort du kidnapping. L'héritier **Talan de Dornlac** (aasimar) semble plus ouvert que son père.
+
+---
+
+## Duché de Valambrais / Lames Pourpres ⚔️
+**Type :** Duché — faction antagoniste
+**Chef :** Duc Malrik de Malefosse
+**Garde d'élite :** Capitaine des Lames Pourpres (guerrière demi-elfe)
+**Couleurs :** Pourpre & Or — Blason : renard d'or
+
+Réseau d'espions (le Chuchoteur), hybrides monstrueux, corruption politique. Objectif : annexer Valombre et Dornlac.
+
+---
+
+## Réseau du Chuchoteur 🦅
+**Type :** Réseau d'espionnage
+**Chef :** L'Espion du Duc (Umbrélien, "le Chuchoteur")
+**Outils :** Pigeons messagers, billets codés, apothicaire Feu-froid
+
+Opère dans l'ombre pour le compte de Malrik. Billets codés retrouvés brûlés en Session 2.
+
+---
+
+## Cercle de Brume-Azur 🌙
+**Type :** Société occulte
+**Allégeance :** Inconnue
+**Localisation :** À l'est — Forêt des Trois-Lunes / Brumargent ?
+
+Lié à la disparition de la mère d'Upick. Pratique des rituels druidiques sur des sites telluriques. Symbole : médaillon à lune brisée.

@@ -1,36 +1,65 @@
 ---
 title: Lieux
-description: Carte et description des lieux de la campagne Colloc-Action.
+description: Les régions, villes et lieux clés de la campagne L'Ombre du Duc.
 ---
 
 # Lieux
 
-Les villes, donjons, régions et points d'intérêt de la campagne.
+## Les trois territoires du conflit
 
-## Template de lieu
-
----
-
-### [Nom du lieu]
-
-**Type :** _Ville / Village / Donjon / Forêt / ..._
-**Région :** _nom de la région_
-**Population :** _si applicable_
-**Gouvernement :** _si applicable_
-
-#### Description
-_Ambiance, architecture, caractéristiques notables._
-
-#### Points d'intérêt
-- _POI 1_
-- _POI 2_
-
-#### Histoire
-_Lore et histoire du lieu._
-
-#### Notes de campagne
-_Ce qui s'y est passé pendant la campagne._
+| Territoire | Type | Capital | Blason | Couleurs |
+|------------|------|---------|--------|----------|
+| **Comté de Valombre** | Comté | Claivail | Chêne d'argent | Vert & Argent 🌳 |
+| **Comté de Dornlac** | Comté | Rivetonne | Marteau d'acier | Ocre & Acier 🔨 |
+| **Duché de Valambrais** | Duché | Pretord | Renard d'or | Pourpre & Or 🦊 |
 
 ---
 
-_Ajoute les fiches de lieux ici._
+## Comté de Valombre
+
+Terres d'un haut-elfe hautain. Forêts denses, rivières argentées. Château avec grande salle elfique aux bannières vert & argent.
+- Capitale : **Claivail**
+- Dirigeant : Comte Aldren de Valombre (haut-elfe)
+
+## Comté de Dornlac
+
+Terres d'un seigneur nain guerrier. Forteresse rocheuse, montagnes au loin.
+- Capitale : **Rivetonne**
+- Dirigeant : Comte Roderic de Dornlac (nain)
+- Présence : cachots, tunnels, otyugh dans les égouts
+
+## Duché de Valambrais / Malefosse
+
+Terres du Duc Malrik. Atmosphère pesante sous son emprise.
+- Capitale : **Pretord** — ville de commerce, marché
+- Dirigeant : Duc Malrik de Malefosse (humain, mage)
+
+---
+
+## Autres lieux visités
+
+### Redelton
+Ville-étape sur la route. Taverne de **Lysa** (halfeline chaleureuse). Rumeurs de silhouettes nocturnes.
+
+### Forêt brumeuse
+Zone de l'attaque initiale. Brouillard dense (désavantage Vision), racines (Athlétisme DD 12). Terrain des Hybrides Sanglier-Humain.
+
+### Ruines forestières (Session 4)
+Abri trouvé par Elian Thorne lors de la fuite de Dornlac.
+
+### Dolmen des Trois-Lunes
+Site druidique lié au fil rouge de la mère d'Upick. Esprit-guide visible en ce lieu.
+
+---
+
+## Le monde plus large
+
+| Pays | Subdivision | Capitale |
+|------|-------------|----------|
+| Royaume du Nord | Padhivers | Hiverpont |
+| Empire de Rivedor | — | — |
+| Confédération de Fief | — | — |
+| Ligue du Serein | — | Sereinvaux |
+| Théocratie de la Lune Brisée | — | Brumargent |
+| Mageocratie | — | Merennal |
+| Horde du Désert de Khar'Zul | — | — |

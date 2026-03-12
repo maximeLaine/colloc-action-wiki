@@ -1,24 +1,32 @@
 ---
 title: Personnages
-description: Vue d'ensemble de tous les personnages de la campagne Colloc-Action.
+description: Tous les personnages de la campagne L'Ombre du Duc.
 ---
 
 # Personnages
 
-Bienvenue dans la section personnages du wiki Colloc-Action.
-
 ## Personnages joueurs (PJ)
 
-Les héros de cette campagne. Voir la page [Joueurs (PJ)](/personnages/joueurs/) pour les fiches complètes.
+| Personnage | Classe | Race | Note |
+|------------|--------|------|------|
+| Upick | — | — | Sa mère disparue est le fil rouge de la campagne |
+| Elian Thorne | Barde | — | Guest — Barde des Cendres d'Orde |
 
-| Personnage | Classe | Race | Joueur |
-|------------|--------|------|--------|
-| _à compléter_ | | | |
+→ [Fiches PJ complètes](/personnages/joueurs/)
+
+---
 
 ## PNJ importants
 
-Les personnages non-joueurs qui marquent la campagne. Voir la page [PNJ importants](/personnages/pnj-importants/) pour les détails.
+| PNJ | Rôle | Affiliation | Statut |
+|-----|------|-------------|--------|
+| **Duc Malrik de Malefosse** | Antagoniste principal | Duché de Valambrais | Vivant |
+| **Comte Aldren de Valombre** | Seigneur haut-elfe | Comté de Valombre | Vivant |
+| **Comte Roderic de Dornlac** | Seigneur nain guerrier | Comté de Dornlac | Vivant |
+| **Princesse Élia de Valombre** | Kidnappée, courageuse | Comté de Valombre | Sauvée ? |
+| **Le Chuchoteur** | Espion du Duc | Duché de Valambrais | Actif |
+| **Gareth** | Garde survivant | Comté de Valombre | ☠ Mort (Session 2) |
+| **Lysa** | Aubergiste | Redelton | Vivante |
+| **Talan de Dornlac** | Héritier, aasimar | Comté de Dornlac | Vivant |
 
-| PNJ | Rôle | Statut |
-|-----|------|--------|
-| _à compléter_ | | |
+→ [Fiches PNJ complètes](/personnages/pnj-importants/)

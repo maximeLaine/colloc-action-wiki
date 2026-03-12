@@ -1,40 +1,38 @@
 ---
 title: Personnages joueurs (PJ)
-description: Fiches détaillées des personnages joueurs de la campagne.
+description: Fiches des personnages joueurs de la campagne L'Ombre du Duc.
 ---
 
 # Personnages joueurs
 
-## Template de fiche
+## Upick
 
-> Copie ce template pour chaque nouveau PJ.
-
----
-
-### [Nom du personnage]
-
-**Joueur :** _prénom du joueur_
-**Classe :** _classe / niveau_
-**Race :** _race_
-**Alignement :** _alignement_
-**Divinité / Serment :** _si applicable_
-
-#### Apparence
-_Description physique du personnage._
-
-#### Personnalité
-_Traits de caractère, idéaux, liens, défauts._
-
-#### Backstory
-_Histoire du personnage avant la campagne._
-
-#### Capacités notables
-- _Capacité 1_
-- _Capacité 2_
+**Classe :** —
+**Race :** —
 
 #### Arc narratif
-_Évolution du personnage au fil de la campagne._
+Sa mère disparue est le **fil rouge** de toute la campagne. Des traces indiquent qu'elle serait mêlée à une société occulte à l'est — le **Cercle de Brume-Azur**.
+
+#### Indices collectés
+- Archives : traces de "La Vagabonde d'Hiver" (rituel druidique, sources telluriques)
+- Gareth évoquait un médaillon à lune brisée
+- Élia a vu une femme masquée correspondant à la description
+- Lettre anonyme de Lysa → dolmen runique et esprit-guide (vision, piste Brume-Azur)
+
+#### Prochaine piste
+**Hook :** Cercle de Brume-Azur ou Forêt des Trois-Lunes
+**Récompense potentielle :** carte-tatouage (Avantage Survie sur sites telluriques)
 
 ---
 
-_Ajoute les fiches des PJ ici._
+## Elian Thorne — Barde des Cendres d'Orde *(Guest)*
+
+**Classe :** Barde
+**Race :** —
+**Statut :** Personnage invité (Session 4)
+
+Rencontré dans la forêt après l'évasion de Dornlac. A rejoint temporairement le groupe.
+
+---
+
+> *Ajoute ici les fiches des autres PJ de la table.*

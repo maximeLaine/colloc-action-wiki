@@ -1,12 +1,17 @@
 /* Colloc-Action Wiki — Custom Theme */
 
+/* Accent DnD (orange chaud) — appliqué aux deux modes */
 :root {
-  /* Couleurs DnD — tons chauds et mystérieux */
+  --sl-color-accent-low: #f5ddc8;
+  --sl-color-accent: #c45a1a;
+  --sl-color-accent-high: #7a3210;
+}
+
+/* Mode sombre uniquement */
+[data-theme='dark'] {
   --sl-color-accent-low: #3b1a0a;
   --sl-color-accent: #c45a1a;
   --sl-color-accent-high: #e8843a;
-
-  /* Fond sombre */
   --sl-color-bg: #0f0e0d;
   --sl-color-bg-nav: #1a1512;
   --sl-color-bg-sidebar: #141210;
