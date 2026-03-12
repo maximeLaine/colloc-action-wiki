@@ -22,6 +22,7 @@ export default defineConfig({
 						{
 							label: '⚔️ Joueurs (PJ)',
 							items: [
+								{ label: 'Kova', slug: 'personnages/kova' },
 								{ label: 'Upick', slug: 'personnages/upick' },
 							],
 						},

@@ -23,3 +23,4 @@ pnpm-debug.log*
 # Source documents (ne pas committer)
 *.docx
 *.doc
+*.pdf
