@@ -1,0 +1,41 @@
+/* Colloc-Action Wiki — Custom Theme */
+
+:root {
+  /* Couleurs DnD — tons chauds et mystérieux */
+  --sl-color-accent-low: #3b1a0a;
+  --sl-color-accent: #c45a1a;
+  --sl-color-accent-high: #e8843a;
+
+  /* Fond sombre */
+  --sl-color-bg: #0f0e0d;
+  --sl-color-bg-nav: #1a1512;
+  --sl-color-bg-sidebar: #141210;
+  --sl-color-hairline-light: #2a2420;
+  --sl-color-hairline: #3a3028;
+}
+
+/* Titre du site */
+.site-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* Blockquotes — style parchemin pour les citations et secrets MJ */
+blockquote {
+  border-left: 3px solid var(--sl-color-accent);
+  background: rgba(196, 90, 26, 0.08);
+  padding: 0.75rem 1rem;
+  border-radius: 0 4px 4px 0;
+  font-style: italic;
+}
+
+/* Tables — style registre */
+table {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+thead {
+  background: var(--sl-color-accent-low);
+}

@@ -1,0 +1,42 @@
+---
+title: Colloc-Action — Le Wiki
+description: Bienvenue dans le wiki de la campagne DnD Colloc-Action.
+template: splash
+hero:
+  tagline: "Une campagne de Donjons & Dragons personnalisée. Plongez dans le lore, découvrez les personnages, et revivez chaque session."
+  actions:
+    - text: Voir les personnages
+      link: /personnages/index/
+      icon: right-arrow
+    - text: Sessions
+      link: /sessions/
+      icon: document
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Explorer le Wiki
+
+<CardGrid stagger>
+  <Card title="🧙 Personnages" icon="user">
+    Fiches des joueurs et des PNJ importants de la campagne.
+    [Voir les personnages →](/personnages/index/)
+  </Card>
+  <Card title="📜 Sessions" icon="open-book">
+    Comptes-rendus et récapitulatifs de chaque session.
+    [Voir les sessions →](/sessions/)
+  </Card>
+  <Card title="🗺️ Lieux" icon="star">
+    Villes, donjons, régions et lieux marquants.
+    [Explorer la carte →](/lieux/)
+  </Card>
+  <Card title="⚔️ Factions" icon="seti:config">
+    Guildes, organisations et factions du monde.
+    [Voir les factions →](/factions/)
+  </Card>
+  <Card title="📚 Lore" icon="information">
+    Histoire du monde, mythologie, magie et secrets.
+    [Lire le lore →](/lore/)
+  </Card>
+</CardGrid>
