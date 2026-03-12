@@ -1,46 +1,323 @@
-/* Colloc-Action Wiki — Custom Theme */
+/* ============================================================
+   COLLOC-ACTION WIKI — Thème D&D Beyond × Wiki Fantasy
+   ============================================================ */
 
-/* Accent DnD (orange chaud) — appliqué aux deux modes */
+/* ── Polices ────────────────────────────────────────────── */
 :root {
-  --sl-color-accent-low: #f5ddc8;
-  --sl-color-accent: #c45a1a;
-  --sl-color-accent-high: #7a3210;
+  --font-display: 'Cinzel', Georgia, serif;
+  --font-body: 'Crimson Text', Georgia, serif;
+  --font-ui: var(--sl-font, system-ui, sans-serif);
+
+  --gold: #c9a227;
+  --gold-light: #e8c44a;
+  --gold-dim: #8b6914;
+  --gold-dark: #3d2700;
+  --red-dnd: #cc2200;
+  --parchment: #f5ead8;
 }
 
-/* Mode sombre uniquement */
+/* ── Thème sombre (défaut) ───────────────────────────────── */
+:root,
 [data-theme='dark'] {
-  --sl-color-accent-low: #3b1a0a;
-  --sl-color-accent: #c45a1a;
-  --sl-color-accent-high: #e8843a;
-  --sl-color-bg: #0f0e0d;
-  --sl-color-bg-nav: #1a1512;
-  --sl-color-bg-sidebar: #141210;
-  --sl-color-hairline-light: #2a2420;
-  --sl-color-hairline: #3a3028;
+  --sl-color-bg:           #0d1117;
+  --sl-color-bg-nav:       #161b22;
+  --sl-color-bg-sidebar:   #111418;
+  --sl-color-bg-inline-code: #1e2530;
+
+  --sl-color-accent-low:   #2a1f00;
+  --sl-color-accent:       #c9a227;
+  --sl-color-accent-high:  #e8c44a;
+
+  --sl-color-text:         #ddd6c8;
+  --sl-color-text-accent:  #c9a227;
+  --sl-color-white:        #ecedee;
+
+  --sl-color-hairline:       #2d333b;
+  --sl-color-hairline-light: #21262d;
+
+  --sl-font: 'Crimson Text', Georgia, serif;
 }
 
-/* Titre du site */
+/* ── Thème clair ─────────────────────────────────────────── */
+[data-theme='light'] {
+  --sl-color-bg:           #f5f0e8;
+  --sl-color-bg-nav:       #1c1208;
+  --sl-color-bg-sidebar:   #efe8d8;
+  --sl-color-bg-inline-code: #e8dfc8;
+
+  --sl-color-accent-low:   #f5e8c0;
+  --sl-color-accent:       #8b6914;
+  --sl-color-accent-high:  #5c4610;
+
+  --sl-color-text:         #1a1208;
+  --sl-color-text-accent:  #8b6914;
+  --sl-color-white:        #1a1208;
+
+  --sl-color-hairline:       #c8b898;
+  --sl-color-hairline-light: #ddd0b8;
+
+  --sl-font: 'Crimson Text', Georgia, serif;
+}
+
+/* ── Typographie globale ─────────────────────────────────── */
+body {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Titres en Cinzel (style D&D Beyond / Fandom) */
+h1, h2, h3, h4,
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3,
+.sl-markdown-content h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--gold);
+}
+
+.sl-markdown-content h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.sl-markdown-content h2 {
+  font-size: 1.45rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--gold) 40%, transparent);
+  padding-bottom: 0.25rem;
+  margin-top: 2.5rem;
+}
+
+.sl-markdown-content h3 {
+  font-size: 1.15rem;
+  color: var(--gold-light);
+}
+
+/* ── Header / Nav ────────────────────────────────────────── */
+header.header {
+  border-bottom: 1px solid var(--gold);
+  background: var(--sl-color-bg-nav) !important;
+}
+
 .site-title {
-  font-size: 1.2rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
   font-weight: 700;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.05em;
+  color: var(--gold) !important;
 }
 
-/* Blockquotes — style parchemin pour les citations et secrets MJ */
-blockquote {
-  border-left: 3px solid var(--sl-color-accent);
-  background: rgba(196, 90, 26, 0.08);
-  padding: 0.75rem 1rem;
-  border-radius: 0 4px 4px 0;
-  font-style: italic;
+/* ── Sidebar ──────────────────────────────────────────────── */
+nav.sidebar {
+  border-right: 1px solid var(--sl-color-hairline);
 }
 
-/* Tables — style registre */
-table {
+/* Labels de section sidebar */
+.group-label span,
+summary span {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold) !important;
+}
+
+/* Lien actif sidebar */
+a[aria-current='page'] {
+  background: color-mix(in srgb, var(--gold) 15%, transparent) !important;
+  border-left: 3px solid var(--gold) !important;
+  color: var(--gold-light) !important;
+  font-weight: 600;
+}
+
+/* ── Contenu principal ────────────────────────────────────── */
+
+/* Tables — style registre D&D Beyond */
+.sl-markdown-content table {
+  border-collapse: collapse;
+  width: 100%;
   border-radius: 6px;
   overflow: hidden;
+  font-size: 0.95rem;
+  border: 1px solid color-mix(in srgb, var(--gold) 30%, transparent);
 }
 
-thead {
-  background: var(--sl-color-accent-low);
+.sl-markdown-content thead {
+  background: color-mix(in srgb, var(--gold) 20%, var(--sl-color-bg-nav));
 }
+
+.sl-markdown-content thead th {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--gold);
+}
+
+.sl-markdown-content tbody tr {
+  border-bottom: 1px solid var(--sl-color-hairline);
+}
+
+.sl-markdown-content tbody tr:hover {
+  background: color-mix(in srgb, var(--gold) 6%, transparent);
+}
+
+.sl-markdown-content tbody td {
+  padding: 0.5rem 0.75rem;
+}
+
+/* Blockquotes — style parchemin / citation de campagne */
+.sl-markdown-content blockquote {
+  border-left: 3px solid var(--gold);
+  background: color-mix(in srgb, var(--gold) 6%, var(--sl-color-bg-nav));
+  padding: 0.8rem 1.2rem;
+  border-radius: 0 6px 6px 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--gold-light);
+  position: relative;
+}
+
+[data-theme='light'] .sl-markdown-content blockquote {
+  background: color-mix(in srgb, var(--gold) 8%, var(--parchment));
+  color: var(--gold-dim);
+}
+
+/* Code inline */
+.sl-markdown-content code:not(pre code) {
+  background: var(--sl-color-bg-inline-code);
+  border: 1px solid var(--sl-color-hairline);
+  color: var(--gold-light);
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+  font-size: 0.85em;
+}
+
+/* Séparateur hr — style D&D */
+.sl-markdown-content hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  margin: 2rem 0;
+}
+
+/* Liens */
+.sl-markdown-content a {
+  color: var(--gold);
+  text-decoration-color: color-mix(in srgb, var(--gold) 40%, transparent);
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+.sl-markdown-content a:hover {
+  color: var(--gold-light);
+  text-decoration-color: var(--gold-light);
+}
+
+/* Listes — style D&D Beyond */
+.sl-markdown-content ul li::marker {
+  color: var(--gold);
+}
+
+/* ── Stat block — D&D Beyond style ──────────────────────── */
+/* Usage: entoure du contenu dans une blockquote pour effet stat-block */
+.sl-markdown-content blockquote strong {
+  color: var(--gold-light);
+  font-style: normal;
+}
+
+/* ── Hero (page d'accueil) ────────────────────────────────── */
+.hero {
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 2rem;
+}
+
+.hero h1 {
+  font-family: var(--font-display);
+  font-size: 2.5rem !important;
+  letter-spacing: 0.05em;
+  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero .tagline {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: color-mix(in srgb, var(--sl-color-text) 70%, var(--gold));
+  letter-spacing: 0.04em;
+}
+
+/* Boutons hero */
+.hero .action.primary {
+  background: var(--gold) !important;
+  color: #0d1117 !important;
+  font-family: var(--font-display) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+  border: none !important;
+}
+
+.hero .action.primary:hover {
+  background: var(--gold-light) !important;
+}
+
+.hero .action.minimal {
+  border-color: var(--gold) !important;
+  color: var(--gold) !important;
+  font-family: var(--font-display) !important;
+}
+
+/* ── Cards (page d'accueil) ─────────────────────────────── */
+.card {
+  background: color-mix(in srgb, var(--gold) 4%, var(--sl-color-bg-nav)) !important;
+  border: 1px solid color-mix(in srgb, var(--gold) 25%, transparent) !important;
+  border-radius: 8px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  border-color: var(--gold) !important;
+  transform: translateY(-2px);
+}
+
+.card .title {
+  font-family: var(--font-display) !important;
+  color: var(--gold) !important;
+  font-size: 1rem !important;
+  letter-spacing: 0.04em;
+}
+
+/* ── Pagination ───────────────────────────────────────────── */
+.pagination-links a {
+  border: 1px solid color-mix(in srgb, var(--gold) 30%, transparent) !important;
+  border-radius: 6px;
+}
+
+.pagination-links a:hover {
+  border-color: var(--gold) !important;
+  background: color-mix(in srgb, var(--gold) 8%, transparent) !important;
+}
+
+/* ── Scrollbar ────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--sl-color-bg); }
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--gold) 40%, transparent);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+/* ── Badge rareté D&D Beyond ─────────────────────────────── */
+/* Usage : `[Légendaire]{.legendary}` dans le markdown */
+.sl-markdown-content .legendary { color: #ffb62a; font-weight: 700; }
+.sl-markdown-content .rare      { color: #4a90e2; font-weight: 600; }
+.sl-markdown-content .uncommon  { color: #7ebe15; font-weight: 600; }
+.sl-markdown-content .enemy     { color: #cc2200; font-weight: 700; }
+.sl-markdown-content .ally      { color: #5cb85c; font-weight: 600; }
