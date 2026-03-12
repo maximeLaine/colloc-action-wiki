@@ -68,6 +68,7 @@ export default defineConfig({
 					autogenerate: { directory: 'factions' },
 				},
 			],
+			pagination: false,
 			customCss: ['./src/styles/custom.css'],
 		}),
 	],
